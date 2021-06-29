@@ -60,7 +60,7 @@ function currentWeather(a, b, c) {
   var humidity = b.humidity;
   var wind = b.wind_speed;
   var uv = b.uvi;
-  var icon = `https://openweathermap.org/img/wn/${b.weather[0].icon}.png`;
+  var icon = `http://openweathermap.org/img/wn/${b.weather[0].icon}.png`;
 
   image.setAttribute("src", icon);
   cityName.innerHTML = `${a} (${date})`;
@@ -85,7 +85,7 @@ function fiveDayForecast(daily, timezone) {
 function createCard(fiveday, timezone) {
   // api data
   var unix = fiveday.dt;
-  var wicon = `https://openweathermap.org/img/wn/${fiveday.weather[0].icon}.png`;
+  var wicon = `http://openweathermap.org/img/wn/${fiveday.weather[0].icon}.png`;
   var wtemp = fiveday.temp.day;
   var whumid = fiveday.humidity;
   var wwind = fiveday.wind_speed;
