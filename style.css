@@ -1,0 +1,79 @@
+.customNav {   
+    background: linear-gradient(
+    60deg,
+    rgba(39, 51, 121, 0.753) 20%,
+    rgb(67, 9, 177) 100%
+  );
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  font-weight: 500;
+  
+}
+.button:active {
+  background-color: #13065c;
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}
+.h1 {
+  font-size: 30px;
+  position: relative;
+  left: 40%;
+  font-weight: bold;
+}
+
+.listBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+ border-style: solid;
+ border-bottom: none;
+ border-left: none;
+ border-right: none;
+ width: 100%;
+}
+.listBox button {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  background: rgb(168, 168, 168);
+  border-radius: 10px;
+  text-align: center;
+  cursor:pointer;
+}
+.weatherBox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 350px;
+  border: black;
+  border-style: solid;
+  border-width: 5px;
+  background: gainsboro;
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+.forecastBox {
+  float: right;
+  width: 75%;
+  border-style: solid;
+  background: gainsboro;
+  border-width: 5px;
+}
+.forecastBox p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.forecast {
+ display: flex;
+ width: 100%;
+ justify-content:space-around ;
+}
