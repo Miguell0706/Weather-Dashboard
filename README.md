@@ -23,7 +23,7 @@ THEN I am again presented with current and future conditions for that city
 ```
 
 ## Functionality of the program 
- The program functions with the use of fetch APIs and utilizing their data to display weather forecast for the selected city onto the page. HTML,CSS and Javascripts were
+ The program functions with the use of fetch APIs and utilizing their data to display weather forecasts for the selected city onto the page. HTML,CSS and Javascripts were
  utilized in order to properly display the information to the user in a user friendly and eye pleasing way. The user has the option to look up a city using the search 
  or select past searches that are saved in the website on the lefthand side of the page.
  
